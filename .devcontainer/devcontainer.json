@@ -1,0 +1,20 @@
+{
+	"name": "Deploy to Azure with Terraform codespace",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	// Add features to the container. Azure cli, and updated version of git
+	"features": {
+		"ghcr.io/devcontainers/features/azure-cli:1": {},
+		"ghcr.io/devcontainers/features/git:1": {}
+	},
+	// Add Hashicorp, azuretools and remote dev vscode extensions to container.
+	"customizations": {
+		"vscode": {"extensions": [
+			"hashicorp.terraform",
+			"ms-azuretools.vscode-azureaccount",
+			"ms-vscode-remote.vscode-remote-extensionspack"
+			]
+		}
+	}
+}
