@@ -1,6 +1,6 @@
 # Terraform deployment codespace
 This repository contains the instructions for creating a custom codespace for deploying resources to the cloud with Terraform. 
-Currently I am just using it with Azure and Linode cloud platforms, but it can be customized to integrate with other cloud providers.    
+Currently it's just configured with Azure cli, but it can be customized to integrate with other cloud providers.    
 
 It contains the following tools:
 
