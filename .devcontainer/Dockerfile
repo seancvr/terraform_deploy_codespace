@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/devcontainers/base:noble
 
-RUN sudo apt update && sudo apt upgrade -y
+RUN sudo apt update
 
 #-----Terraform installation commands-----
 # Install gnupg and software-common-properties packages
