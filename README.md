@@ -1,7 +1,6 @@
 # Terraform deployment codespace
 
 This repository contains the devcontainer files for a codespace that can deploy resources to the cloud with Terraform.
-Currently it's just configured with Azure cli, but it can be customized to integrate with other cloud providers.
 
 It contains the following tools:
 
