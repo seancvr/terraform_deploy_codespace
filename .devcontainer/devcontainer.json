@@ -12,7 +12,6 @@
     "vscode": {
       "extensions": [
         "hashicorp.terraform",
-        "ms-azuretools.vscode-azureaccount",
         "ms-vscode-remote.vscode-remote-extensionspack"
       ]
     }
